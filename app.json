@@ -1,0 +1,18 @@
+{
+  "name": "speedtest-1ss",
+  "description": "deployspeedtest-1ss to Heroku.",
+  "keywords": ["speedtest-1ss"],
+  "env": {
+    "UUID": {
+       "description": "协议默认UUID，请输入自己的UUID",
+       "value": "679aca84-a0c6-4040-9b45-39356de48b63"
+     },
+    "V2RAY_RAY_BUFFER_SIZE": {
+       "description": "每个连接的缓存大小，单位MB,0表示缓存无上限",
+       "value": "0"
+     }
+  },
+  "website": "https://github.com/HamJin/speedtest-1ss",
+  "repository": "https://github.com/HamJin/speedtest-1ss",
+  "stack": "container"
+ }
