@@ -1,9 +1,9 @@
 FROM alpine:latest
-ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\": 
-ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\" 
-ENV CONFIG_JSON3=\",\"alterId\":64}]},\"streamSettings\":{\"network\":\"ws\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}} 
+ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"shadowsocks\",\"address\":\"0.0.0.0\",\"port\": 
+ENV CONFIG_JSON2=,\"settings\":{\"password\":\" 
+ENV CONFIG_JSON3=\",\"method\":\"chacha20-poly1305\",\"ota\":\"true\"},\"streamSettings\":{\"network\":\"ws\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}} 
 
-ENV CERT_PEM=none KEY_PEM=none VER=4.19.1
+ENV VER=4.21.3
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && mkdir -m 777 /v2raybin \
