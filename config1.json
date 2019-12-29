@@ -11,7 +11,7 @@
         "settings": {
           "method": "chacha20-poly1305",
           "ota": true, 
-          "password": "sspasswd"
+          "password": "679aca84-a0c6-4040-9b45-39356de48b63"
         }
       }
     ],
