@@ -7,8 +7,8 @@
         "port": 65537, 
         "protocol": "shadowsocks",
         "settings": {
-          "method": "aes-256-gcm", 
-          "password": "xyz123456"
+          "method": "chacha20-poly1305", 
+          "password": "679aca84a0c640409b4539356de48b63"
         },
         "streamSettings": {
           "network":"ws"
