@@ -8,6 +8,7 @@
         "protocol": "shadowsocks",
         "settings": {
           "method": "chacha20-poly1305", 
+          "network": "tcp,udp",
           "password": "679aca84a0c640409b4539356de48b63"
         },
         "streamSettings": {
